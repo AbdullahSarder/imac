@@ -44,7 +44,7 @@ document.getElementById('memoryAdd').addEventListener('click',function(){
 
 //storage cost
 document.getElementById('defaultStorage').addEventListener('click',function(){
-   MemoryAndDeliveryCost('extraStorage',05);
+   MemoryAndDeliveryCost('extraStorage',0);
 })
 document.getElementById('Storage512GB').addEventListener('click',function(){
    MemoryAndDeliveryCost('extraStorage',100);
